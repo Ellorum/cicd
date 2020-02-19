@@ -1,0 +1,29 @@
+{
+  "name": "cicd",
+  "version": "1.0.0",
+  "description": "Sample code ci/cd pipeline using Github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ellorum/cicd.git"
+  },
+  "keywords": [
+    "Test",
+    "Repo"
+  ],
+  "author": "Gratuz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ellorum/cicd/issues"
+  },
+  "homepage": "https://github.com/Ellorum/cicd#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
