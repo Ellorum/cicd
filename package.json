@@ -4,7 +4,7 @@
   "description": "Sample code ci/cd pipeline using Github actions",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,15 @@
   },
   "devDependencies": {
     "jest": "^25.1.0"
-  }
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": -10
+      }
+    }
+  }  
 }
